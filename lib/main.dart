@@ -75,21 +75,28 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Column(
         children: <Widget>[
-          Center(
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: <Widget>[
-                Text(
-                  'You have pushed the button this many times:',
+          Row(
+            children: <Widget>[
+              const SizedBox(width: 16,),
+              Expanded(
+                child: TextField(
+                  decoration: InputDecoration(
+                    border: UnderlineInputBorder(),
+                    labelText: 'Enter new name',
+                  ),
                 ),
-                Text(
-                  '$_counter',
-                  style: Theme.of(context).textTheme.display1,
+              ),
+              const SizedBox(width: 16,),
+              RaisedButton(
+                onPressed: () {},
+                child: Text(
+                  "ENTER",
+                  style: Theme.of(context).textTheme.body2,
                 ),
-              ],
-            ),
+              ),
+              const SizedBox(width: 16,),
+            ],
           ),
-          //use this as child
           Expanded(
             child: Center(
               // Center is a layout widget. It takes a single child and positions it
