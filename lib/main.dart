@@ -26,7 +26,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  String _helloName = "World";
+  String _helloName = "Hello, World!";
 
   void _updateHelloName(String name) {
     setState(() {
