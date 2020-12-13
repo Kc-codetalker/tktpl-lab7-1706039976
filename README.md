@@ -1,16 +1,9 @@
-# lab_tktpl
+# Hello World Android App with Flutter
+This is a simple app written using Flutter which mimics my other native app from [my first Mobile Programming Course Lab session](https://github.com/Kc-codetalker/learn-tktpl-1706039976). It has TextField, RaisedButton, and Text widgets. The TextField (and "Enter" RaisedButton) add a functionality to change "World" in the "Hello, World!" Text into whatever entered into the field.
 
-A new Flutter application.
+## Installation
+There is currently no APK file in this commit. One will have to clone this repository and run it locally (using Android Studio or other tool).
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## References
+* https://flutter.dev/docs/get-started/flutter-for/android-devs
+* https://flutter.dev/docs/cookbook/forms/retrieve-input
